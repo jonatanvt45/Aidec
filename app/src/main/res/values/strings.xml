@@ -1,0 +1,193 @@
+<!--
+  ~  Copyright 2017 Rozdoum
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">Aidec</string>
+    <string name="label_create_post_activity">Crear post</string>
+    <string name="label_post_detail_activity">Detalles</string>
+    <string name="label_image_detail_activity">Imagen</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="title_activity_create_profile">Crear perfil</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="title_activity_edit_profile">Editar perfil</string>
+    <string name="title_activity_edit_post">Editar post</string>
+    <string name="title_activity_following_posts">Posts de amigos</string>
+
+    <string name="text_take_photo">Tomar foto</string>
+    <string name="text_pick_photo">Elegir desde la galeria</string>
+    <string name="button_title_cancel">Cancelar</string>
+    <string name="button_ok">OK</string>
+
+    <string name="hint_title">Titulo</string>
+    <string name="hint_description">Descripción</string>
+
+    <string name="message_post_was_created">Se ha creado tu publicación</string>
+    <string name="error_fail_create_post">Error al crear publicación</string>
+    <string name="error_fail_load_image">Error al cargar imagén</string>
+    <string name="error_fail_crop_image">Error al subir imagén</string>
+    <string name="error_smaller_image">La imagén es muy pequeña. Se requiere una imagén de 100x100 px</string>
+    <string name="error_incorrect_file_type">Tipo de archivo no valido</string>
+    <string name="error_bigger_file">El tamaño del archivo es mayor a 10Mb</string>
+    <string name="message_creating_post">Creando publicación …</string>
+    <string name="message_saving">Salvando …</string>
+    <string name="warning_empty_image">Imagen requerida</string>
+    <string name="warning_empty_title">Titulo requerido</string>
+    <string name="warning_empty_description">Descripción requerida</string>
+    <string name="error_post_title_length">El titulo no debe ser mayor a los 255 caracteres</string>
+    <string name="error_fail_remove_post">Error al quitar la publicación</string>
+    <string name="message_post_was_removed">La publicación ha sido removida</string>
+    <string name="error_fail_update_post">Error al cargar la publicación</string>
+    <string name="error_post_was_removed">La publicación ha sido removida</string>
+    <string name="confirm_deletion_post">Desea borrar esta publicación?</string>
+
+    <string name="comment_text_hint">Ingresando comentario…</string>
+    <string name="button_post_comment">Publicar comentario</string>
+
+    <string name="label_comments">Comentarios (%1$d):</string>
+
+    <string name="create_post_menu_label">Publicar</string>
+    <string name="create_post_full_menu_label">Crear publicación</string>
+    <string name="sign_out_menu_label">Cerrar sesión</string>
+    <string name="edit_profile_menu_label">Editar perfil</string>
+    <string name="button_title_save">Hecho!</string>
+    <string name="button_title_continue">Continuar</string>
+
+    <!-- Strings related to registration and login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_conf_password">Confirmar contraseña</string>
+    <string name="action_create_profile">Continuar</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="error_profile_name_length">El nombre no puede ser mayor a 120 caracteres</string>
+    <string name="error_invalid_email">El email que ingresaste es invalido</string>
+    <string name="error_confirm_password">Error al confirmar la contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="permissions_not_granted">Cancelando, los permisos requeridos no son validos</string>
+    <string name="error_fail_create_profile">Error al crear perfil</string>
+    <string name="error_fail_update_profile">Error al actualizar el perfil</string>
+    <string name="text_login">Gracias por usar Aidec, puedes continuar.</string>
+    <string name="error_authentication">Error en la verificación.</string>
+    <string name="error_google_play_services">Error en los servicios de Google Play.</string>
+    <string name="button_login_with_facebook">Entrar con facebook</string>
+    <string name="button_login_with_google">Entrar con google</string>
+
+
+    <string name="loading">Cargando …</string>
+    <string name="removing">Eliminando…</string>
+    <string name="error_general">Algo ha ocurrido :c.</string>
+    <string name="error_general_post">Algo ha ocurrido con la publicación, id: %1$s</string>
+    <string name="internet_connection_failed">Error de conexión</string>
+    <string name="press_once_again_to_exit">Presiona dos veces para salir</string>
+
+    <!-- Strings related to login -->
+
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="permission_rationale">"Otorga permisos para acceder a tus contacots desde tu email."
+    </string>
+
+    <string name="profile_menu_item">Perfil</string>
+    <string name="collapse_text_label">menos vistos</string>
+    <string name="expand_text_label">mas vistos</string>
+    <string name="add_complain">Quejarse</string>
+    <string name="edit_post_menu">Editar publicación</string>
+    <string name="delete_post_menu">Borrar publicación</string>
+    <string name="complain_text">Denuncia esta publicación si tiene imagenes de violencia,
+        comentarios de odio, eventos tragicos o muestra imagenes sexuales explicitas.
+        Nadie verá tus quejas sobre el contenido. Puedes eliminar o no tus denuncias. Gracias por hacer
+        de Aidec un lugar para todos.</string>
+
+    <string name="send_comment_button_label">Enviar</string>
+    <string name="posted_by_label">Publicado por:</string>
+
+    <plurals name="posts_counter_format">
+        <item quantity="one">publicacion</item>
+        <item quantity="other">publicaciones</item>
+    </plurals>
+
+    <plurals name="likes_counter_format">
+        <item quantity="one">like</item>
+        <item quantity="other">likes</item>
+    </plurals>
+
+    <plurals name="followers_counter_format">
+        <item quantity="one">seguidor</item>
+        <item quantity="other">seguidores</item>
+    </plurals>
+
+    <plurals name="followings_counter_format">
+        <item quantity="one">seguido</item>
+        <item quantity="other">siguiendo</item>
+    </plurals>
+
+    <string name="posts_label">Publicaciones:</string>
+    <string name="complain_sent">La queja ha sido enviada exitosamente</string>
+    <string name="now_time_range">Ahora</string>
+
+    <string name="duration_minutes_shortest">%1$d m</string>
+    <string name="duration_hours_shortest">%1$d h</string>
+    <string name="duration_days_shortest">%1$d d</string>
+    <string name="duration_week_shortest">%1$d w</string>
+
+    <string name="post_image_transition_name" translatable="false">post_image_transition</string>
+    <string name="post_author_image_transition_name" translatable="false">post_author_image_transition_name</string>
+    <string name="message_new_post_was_created">New post was created</string>
+
+    <plurals name="new_posts_counter_format">
+        <item quantity="one">%1$d new post</item>
+        <item quantity="other">%1$d new posts</item>
+    </plurals>
+
+    <string name="edit_comment_menu_item">Editar</string>
+    <string name="delete_comment_menu_item">Eliminar</string>
+    <string name="message_comment_was_removed">El comentario has sido eliminado</string>
+    <string name="message_comment_was_edited">Se ha editado tu comentario exitosamente</string>
+    <string name="title_edit_comment">Editar comentario</string>
+
+    <!--Follow-->
+    <string name="button_follow_title">Seguir</string>
+    <string name="button_follow_back_title">Seguir también</string>
+    <string name="button_following">Siguiendo</string>
+    <string name="unfollow_user_message">Dejar de seguir a %1$s?</string>
+    <string name="button_title_unfollow">Dejar de seguir</string>
+    <string name="message_following_posts_empty">Seguir para ver sus nuevas publicaciones</string>
+    <string name="following_post_menu_item">Publicaciones que sigues</string>
+
+    <!--Users list-->
+    <string name="title_followers">Seguidores</string>
+    <string name="title_followings">Siguiendo</string>
+    <string name="message_empty_list">No tienes seguidores %1$s aún</string>
+
+    <!--Search-->
+    <string name="search_menu_item">Buscar</string>
+    <string name="search_hint">Buscando …</string>
+    <string name="posts_tab_title">Publicar</string>
+    <string name="users_tab_title">Usuarios</string>
+    <string name="empty_posts_search_message">No se encontró la publicación</string>
+    <string name="empty_user_search_message">No se encontraron los usuarios</string>
+
+
+    <!--Firebase errors-->
+    <string name="permission_denied_error">Porfacor checa tu conexión con el servidor</string>
+
+    <!--Notifications-->
+    <string name="new_like_channel_name">Nuevo like</string>
+    <string name="new_comment_channel_name">Nuevo comentario</string>
+
+
+</resources>
